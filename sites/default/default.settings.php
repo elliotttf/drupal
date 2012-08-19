@@ -510,3 +510,13 @@ $conf['404_fast_html'] = '<html xmlns="http://www.w3.org/1999/xhtml"><head><titl
  * Remove the leading hash signs to disable.
  */
 # $conf['allow_authorize_operations'] = FALSE;
+
+/**
+ * Smart start:
+ *
+ * If you would prefer to be redirected to the installation system when a
+ * valid settings.php file is present but no tables are installed, remove
+ * the leading hash sign below.
+ */
+# $conf['pressflow_smart_start'] = TRUE;
+
